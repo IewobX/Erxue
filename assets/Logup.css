@@ -1,0 +1,51 @@
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+h6{
+    /* margin-top: 0; */
+    font-size: .7rem;
+    padding-left: 1rem;
+    color: red;
+}
+
+.phone .field-group{
+    margin-top: .4rem;
+}
+#previewer{
+    display: block;
+    margin: 1rem 2rem;
+}
+.file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 0.7rem 1.7rem;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 1rem;
+}
+.file input {
+    position: absolute;
+    /* font-size: 100px; */
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+#submit{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
